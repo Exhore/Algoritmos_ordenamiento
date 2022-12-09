@@ -3,7 +3,7 @@ Casos de uso
 ubbleSort -
 QuickSort - 
 SelectionSort -
-Insertionsort -
+Insertionsort 
 
 
 
