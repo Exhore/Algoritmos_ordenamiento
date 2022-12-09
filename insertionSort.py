@@ -3,6 +3,7 @@ def insertionSort(list=[]):
     """ Insertion Sort - Para pequeños sets de datos.
     - Si el array está ordenado previamente pero al revés, no debería de usar este algoritmo.
     - Debe de tener un contenido heterógeno.
+    - Muy útil si la lista ya viene mínimamente ordenada desde un principio(input)
 
      """
 
