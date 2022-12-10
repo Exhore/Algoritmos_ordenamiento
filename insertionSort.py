@@ -14,22 +14,9 @@ def insertionSort(list=[]):
         while j >= 0 and key < list[j]:
             list[j + 1] = list[j]
             j -= 1
+
         list[j + 1] = key
 
     return list
 
-# versión alternativa
-
-"""
-def insertionSortAlt(list=[]):
-
-    number = len(list)
-    for i in range(1, number):
-        x = number[i]
-        j = i
-        while j >= 1 and number[j - 1] > number:
-            number[j] = number[j - 1]
-            j -= 1
-        number[j] = x
-    return number """
-
+print(insertionSort([123189,832929,12,100,32]))
